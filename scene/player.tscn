@@ -1,0 +1,91 @@
+[gd_scene load_steps=43 format=2]
+
+[ext_resource path="res://assets/Basic/Run - Basic/[run -_00001] (imported)-run -_00013.png.png" type="Texture" id=1]
+[ext_resource path="res://assets/Basic/Stand - Basic/[stand -_00001] (imported)-stand -_00013.png.png" type="Texture" id=2]
+[ext_resource path="res://assets/Basic/Land - Basic/[bat_00001] (imported)-land_00001.png 1.png" type="Texture" id=3]
+[ext_resource path="res://scene/player.gd" type="Script" id=4]
+[ext_resource path="res://scene/AnimatedSprite.gd" type="Script" id=5]
+[ext_resource path="res://assets/Basic/Stand - Basic/[stand -_00001] (imported)-stand -_00006.png.png" type="Texture" id=6]
+[ext_resource path="res://assets/Basic/Land - Basic/[bat_00001] (imported)-land_00001.png.png" type="Texture" id=7]
+[ext_resource path="res://assets/Basic/Jump - Basic/Jump - Basic 1.png" type="Texture" id=8]
+[ext_resource path="res://assets/Basic/Stand - Basic/[stand -_00001] (imported)-stand -_00008.png.png" type="Texture" id=9]
+[ext_resource path="res://assets/Basic/Run - Basic/[run -_00001] (imported)-run -_00002.png.png" type="Texture" id=10]
+[ext_resource path="res://assets/Basic/Run - Basic/[run -_00001] (imported)-run -_00003.png.png" type="Texture" id=11]
+[ext_resource path="res://assets/Basic/Run - Basic/[run -_00001] (imported)-run -_00011.png.png" type="Texture" id=12]
+[ext_resource path="res://assets/Basic/Stand - Basic/[stand -_00001] (imported)-stand -_00011.png.png" type="Texture" id=13]
+[ext_resource path="res://assets/Basic/Run - Basic/[run -_00001] (imported)-run -_00005.png.png" type="Texture" id=14]
+[ext_resource path="res://assets/Basic/Stand - Basic/[stand -_00001] (imported)-stand -_00010.png.png" type="Texture" id=15]
+[ext_resource path="res://assets/Basic/Run - Basic/[run -_00001] (imported)-run -_00014.png.png" type="Texture" id=16]
+[ext_resource path="res://assets/Basic/Run - Basic/[run -_00001] (imported)-run -_00008.png.png" type="Texture" id=17]
+[ext_resource path="res://assets/Basic/Stand - Basic/[stand -_00001] (imported)-stand -_00018.png.png" type="Texture" id=18]
+[ext_resource path="res://assets/Basic/Stand - Basic/[stand -_00001] (imported)-stand -_00014.png.png" type="Texture" id=19]
+[ext_resource path="res://assets/Basic/Stand - Basic/[stand -_00001] (imported)-stand -_00001.png.png" type="Texture" id=20]
+[ext_resource path="res://assets/Basic/Run - Basic/[run -_00001] (imported)-run -_00007.png.png" type="Texture" id=21]
+[ext_resource path="res://assets/Basic/Stand - Basic/[stand -_00001] (imported)-stand -_00017.png.png" type="Texture" id=22]
+[ext_resource path="res://assets/Basic/Stand - Basic/[stand -_00001] (imported)-stand -_00015.png.png" type="Texture" id=23]
+[ext_resource path="res://assets/Basic/Run - Basic/[run -_00001] (imported)-run -_00016.png.png" type="Texture" id=24]
+[ext_resource path="res://assets/Basic/Stand - Basic/[stand -_00001] (imported)-stand -_00005.png.png" type="Texture" id=25]
+[ext_resource path="res://assets/Basic/Stand - Basic/[stand -_00001] (imported)-stand -_00003.png.png" type="Texture" id=26]
+[ext_resource path="res://assets/Basic/Stand - Basic/[stand -_00001] (imported)-stand -_00012.png.png" type="Texture" id=27]
+[ext_resource path="res://assets/Basic/Stand - Basic/[stand -_00001] (imported)-stand -_00009.png.png" type="Texture" id=28]
+[ext_resource path="res://assets/Basic/Run - Basic/[run -_00001] (imported)-run -_00004.png.png" type="Texture" id=29]
+[ext_resource path="res://assets/Basic/Run - Basic/[run -_00001] (imported)-run -_00015.png.png" type="Texture" id=30]
+[ext_resource path="res://assets/Basic/Run - Basic/[run -_00001] (imported)-run -_00010.png.png" type="Texture" id=31]
+[ext_resource path="res://assets/Basic/Stand - Basic/[stand -_00001] (imported)-stand -_00002.png.png" type="Texture" id=32]
+[ext_resource path="res://assets/Basic/Run - Basic/[run -_00001] (imported)-run -_00006.png.png" type="Texture" id=33]
+[ext_resource path="res://assets/Basic/Stand - Basic/[stand -_00001] (imported)-stand -_00004.png.png" type="Texture" id=34]
+[ext_resource path="res://assets/Basic/Run - Basic/[run -_00001] (imported)-run -_00009.png.png" type="Texture" id=35]
+[ext_resource path="res://assets/Basic/Run - Basic/[run -_00001] (imported)-run -_00012.png.png" type="Texture" id=36]
+[ext_resource path="res://assets/Basic/Stand - Basic/[stand -_00001] (imported)-stand -_00016.png.png" type="Texture" id=37]
+[ext_resource path="res://assets/Basic/Stand - Basic/[stand -_00001] (imported)-stand -_00007.png.png" type="Texture" id=38]
+[ext_resource path="res://assets/Basic/Jump - Basic/Jump - Basic.png" type="Texture" id=39]
+[ext_resource path="res://assets/Basic/Run - Basic/[run -_00001] (imported)-run -_00001.png.png" type="Texture" id=40]
+
+[sub_resource type="SpriteFrames" id=24]
+animations = [ {
+"frames": [ ExtResource( 20 ), ExtResource( 32 ), ExtResource( 26 ), ExtResource( 34 ), ExtResource( 25 ), ExtResource( 6 ), ExtResource( 38 ), ExtResource( 9 ), ExtResource( 28 ), ExtResource( 15 ), ExtResource( 13 ), ExtResource( 27 ), ExtResource( 2 ), ExtResource( 19 ), ExtResource( 23 ), ExtResource( 37 ), ExtResource( 22 ), ExtResource( 18 ) ],
+"loop": true,
+"name": "idle",
+"speed": 3.0
+}, {
+"frames": [ ExtResource( 8 ), ExtResource( 39 ) ],
+"loop": true,
+"name": "jump",
+"speed": 3.0
+}, {
+"frames": [ ExtResource( 40 ), ExtResource( 10 ), ExtResource( 11 ), ExtResource( 29 ), ExtResource( 14 ), ExtResource( 33 ), ExtResource( 21 ), ExtResource( 17 ), ExtResource( 35 ), ExtResource( 31 ), ExtResource( 12 ), ExtResource( 36 ), ExtResource( 1 ), ExtResource( 16 ), ExtResource( 30 ), ExtResource( 24 ) ],
+"loop": true,
+"name": "run",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 3 ), ExtResource( 7 ) ],
+"loop": true,
+"name": "land",
+"speed": 5.0
+} ]
+
+[sub_resource type="CapsuleShape2D" id=40]
+radius = 22.0
+height = 44.0
+
+[node name="Player" type="KinematicBody2D"]
+collision_layer = 3
+collision_mask = 6
+script = ExtResource( 4 )
+jump_speed = 230
+
+[node name="PlayerAnimatedSprite" type="AnimatedSprite" parent="."]
+position = Vector2( -4, 7.00003 )
+scale = Vector2( 0.13, 0.13 )
+frames = SubResource( 24 )
+animation = "idle"
+frame = 8
+speed_scale = 3.0
+playing = true
+script = ExtResource( 5 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( -6, 8 )
+shape = SubResource( 40 )
+
+[connection signal="animate" from="." to="PlayerAnimatedSprite" method="_on_Player_animate"]

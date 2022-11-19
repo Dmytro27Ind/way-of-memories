@@ -1,0 +1,82 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://assets/vinizinho.ttf" type="DynamicFontData" id=2]
+
+[sub_resource type="StyleBoxFlat" id=1]
+bg_color = Color( 0, 0, 0, 0.870588 )
+border_width_left = 2
+border_width_top = 2
+border_width_right = 2
+border_width_bottom = 2
+border_color = Color( 1, 0.843137, 0.317647, 1 )
+
+[sub_resource type="DynamicFont" id=2]
+size = 70
+font_data = ExtResource( 2 )
+
+[node name="Node2D" type="Node2D"]
+
+[node name="UI" type="Control" parent="."]
+margin_right = 40.0
+margin_bottom = 40.0
+
+[node name="menu" type="CanvasLayer" parent="UI"]
+
+[node name="Panel" type="Panel" parent="UI/menu"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -330.0
+margin_top = -220.5
+margin_right = 330.0
+margin_bottom = 220.5
+custom_styles/panel = SubResource( 1 )
+
+[node name="RichTextLabel" type="RichTextLabel" parent="UI/menu/Panel"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -327.0
+margin_top = -188.0
+margin_right = 326.0
+margin_bottom = -117.0
+custom_colors/default_color = Color( 0.960784, 0.960784, 0.960784, 1 )
+custom_fonts/normal_font = SubResource( 2 )
+text = "	    Controls:"
+scroll_active = false
+
+[node name="RichTextLabel2" type="RichTextLabel" parent="UI/menu/Panel"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = -243.0
+margin_top = -99.0
+margin_right = -86.0
+margin_bottom = 166.0
+custom_colors/default_color = Color( 0.960784, 0.960784, 0.960784, 1 )
+custom_fonts/normal_font = SubResource( 2 )
+text = "left
+right
+jump
+menu"
+scroll_active = false
+
+[node name="RichTextLabel3" type="RichTextLabel" parent="UI/menu/Panel"]
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+margin_left = 21.0
+margin_top = -99.0
+margin_right = 324.0
+margin_bottom = 166.0
+custom_colors/default_color = Color( 0.960784, 0.960784, 0.960784, 1 )
+custom_fonts/normal_font = SubResource( 2 )
+text = "A or LEFT
+D or RIGHT
+W or UP
+ESC"
+scroll_active = false

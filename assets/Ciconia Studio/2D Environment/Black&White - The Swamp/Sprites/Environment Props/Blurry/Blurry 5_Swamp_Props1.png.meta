@@ -1,0 +1,1657 @@
+fileFormatVersion: 2
+guid: 5478377f0e512ee46863ad151a75b6c6
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6974189937565280807
+    second: Swamp_Little Rock_01
+  - first:
+      213: 5164028980410597318
+    second: Swamp_Little Rock_02
+  - first:
+      213: -4479585505886784797
+    second: Swamp_Little Rock_03
+  - first:
+      213: -7024728738774269885
+    second: Swamp_Little Rock_04
+  - first:
+      213: 945710120195217156
+    second: Swamp_Little Rock_05
+  - first:
+      213: -1704040599595314262
+    second: Swamp_Trap_01
+  - first:
+      213: 8647624290832804071
+    second: Swamp_Rope_01
+  - first:
+      213: -2251378981878831459
+    second: Swamp_Spines_01
+  - first:
+      213: 6082551746529650364
+    second: _wamp1_8
+  - first:
+      213: -3657358732709508115
+    second: _wamp1_9
+  - first:
+      213: -6436091643121047955
+    second: _wamp1_10
+  - first:
+      213: -3028561797031366877
+    second: _wamp1_11
+  - first:
+      213: -8380447525764402974
+    second: _wamp1_12
+  - first:
+      213: 1519814414206282150
+    second: Swamp_Spines_02
+  - first:
+      213: 4791241829180913719
+    second: _wamp1_14
+  - first:
+      213: -922119729315349491
+    second: _wamp1_15
+  - first:
+      213: 2556039118839121835
+    second: _wamp1_16
+  - first:
+      213: 5987052282611873528
+    second: Swamp_Wood Structure_01
+  - first:
+      213: -2632994503498256397
+    second: Swamp_Mushroom_01
+  - first:
+      213: 7265157464577309643
+    second: _wamp1_19
+  - first:
+      213: 6274388181857409193
+    second: Swamp_Wood Pillar_01
+  - first:
+      213: -3618883398164440656
+    second: _wamp1_21
+  - first:
+      213: 6357903348330689860
+    second: Swamp_Mushroom_02
+  - first:
+      213: -4237726438767827128
+    second: Swamp_Trap_02
+  - first:
+      213: 1613546727264368035
+    second: Swamp_Trap_03
+  - first:
+      213: 2382946928296172134
+    second: Swamp_Rock Round_01
+  - first:
+      213: 4006581376374630855
+    second: Swamp_Noose
+  - first:
+      213: -5484423167758735184
+    second: Swamp_Mushroom_03
+  - first:
+      213: 4471174125158877632
+    second: _wamp1_28
+  - first:
+      213: 7860009923735759501
+    second: _wamp1_29
+  - first:
+      213: -7184532715527459061
+    second: Swamp_Trap_04
+  - first:
+      213: -1832569436895937501
+    second: Swamp_Moss Rock_01
+  - first:
+      213: -2364266504380253093
+    second: Swamp_Rope_02
+  - first:
+      213: -7824411989281691223
+    second: Swamp_Mushroom_04
+  - first:
+      213: 1994471851918918486
+    second: Swamp_Wood Branch_02
+  - first:
+      213: -2350124567105212982
+    second: Swamp_Wood Branch_03
+  - first:
+      213: -595153732261948174
+    second: Swamp_Trunk_01
+  - first:
+      213: -3848768034888064178
+    second: Swamp_Rope_03
+  - first:
+      213: 6434297970476799023
+    second: Swamp_Wood Branch_01
+  - first:
+      213: -8819589599112005164
+    second: Swamp_Trunk_02
+  - first:
+      213: -3148740126976530223
+    second: Swamp_Mushroom_05
+  - first:
+      213: -6088911530068597877
+    second: Swamp_Mushroom_011
+  - first:
+      213: -7334711240439892337
+    second: Swamp_Mushroom_06
+  - first:
+      213: 7720488910503758531
+    second: Swamp_Mushroom_07
+  - first:
+      213: -2930528632401209088
+    second: Swamp_Mushroom_08
+  - first:
+      213: 1533440447401719221
+    second: Swamp_Mushroom_09
+  - first:
+      213: -759686316452964685
+    second: Swamp_Mushroom_013
+  - first:
+      213: 1698576055558867609
+    second: Swamp_Mushroom_010
+  - first:
+      213: 342956889507122817
+    second: Swamp_Trunk_04
+  - first:
+      213: -2222927791770761969
+    second: Swamp_Mushroom_012
+  - first:
+      213: 5088410297214812132
+    second: Swamp_Trunk_03
+  - first:
+      213: 1029977467463277946
+    second: Swamp_Mushroom Trees_01
+  - first:
+      213: 3901402648775412103
+    second: Swamp_Trunk_06
+  - first:
+      213: 963497430753138652
+    second: Swamp_Trunk_07
+  - first:
+      213: -1209141232733765882
+    second: Swamp_Trunk_08
+  - first:
+      213: -2873850541737069492
+    second: Swamp_Trunk_05
+  - first:
+      213: -9158631198889545510
+    second: Swamp_Mushroom Trees_03
+  - first:
+      213: 7207556889365732445
+    second: Swamp_Wood Pillar_02
+  - first:
+      213: 1773340673946448193
+    second: Swamp_Mushroom Trees_02
+  - first:
+      213: -1967770228762377540
+    second: Swamp_Wood Branch_04
+  - first:
+      213: 3154194701476294415
+    second: Swamp_Wood Branch_05
+  - first:
+      213: 2264049034955122393
+    second: Swamp_Wood Branch_06
+  - first:
+      213: 2414428037634795462
+    second: Swamp_Wood Branch_07
+  - first:
+      213: -2661081419002021198
+    second: Swamp_Moss Rock_02
+  - first:
+      213: -215124594331355339
+    second: Swamp_Moss Rock_03
+  - first:
+      213: 1799410131143415367
+    second: Swamp_Props1_0
+  - first:
+      213: -1540002534426084042
+    second: Swamp_Props1_1
+  - first:
+      213: 4909878955863129353
+    second: Swamp_Props1_2
+  - first:
+      213: 2402545209699307841
+    second: Swamp_Props1_3
+  - first:
+      213: 8827963520048999930
+    second: Swamp_Props1_4
+  - first:
+      213: -8470626175756950527
+    second: Swamp_Props1_5
+  - first:
+      213: -8350881101424533244
+    second: Swamp_Props1_6
+  - first:
+      213: 7401368947226116179
+    second: Swamp_Props1_7
+  - first:
+      213: -6265934102737210984
+    second: Swamp_Props1_8
+  - first:
+      213: 2093406669644724396
+    second: Swamp_Props1_9
+  - first:
+      213: 6975970367773434072
+    second: Swamp_Props1_10
+  - first:
+      213: 2619541214703800314
+    second: Swamp_Props1_11
+  - first:
+      213: -1697991719172863767
+    second: Swamp_Props1_12
+  - first:
+      213: 2552735320340270969
+    second: Swamp_Props1_13
+  - first:
+      213: 1429565392140048133
+    second: Swamp_Props1_14
+  - first:
+      213: -6159567435479645008
+    second: Swamp_Props1_15
+  - first:
+      213: -6909034013846352654
+    second: Swamp_Props1_16
+  - first:
+      213: 4045678778318435248
+    second: Swamp_Props1_17
+  - first:
+      213: 3266163436937117939
+    second: Swamp_Props1_18
+  - first:
+      213: 882260394577314702
+    second: Swamp_Props1_19
+  - first:
+      213: -4241083310178924709
+    second: Swamp_Props1_20
+  - first:
+      213: -3694325230325409583
+    second: Swamp_Props1_21
+  - first:
+      213: -4528006546868267042
+    second: Swamp_Props1_22
+  - first:
+      213: -2144247504880773240
+    second: Swamp_Props1_23
+  - first:
+      213: 1663999682018924030
+    second: Swamp_Props1_24
+  - first:
+      213: -8024812347224520828
+    second: Swamp_Props1_25
+  - first:
+      213: 6649793257232641531
+    second: Swamp_Props1_26
+  - first:
+      213: -5438523685947688576
+    second: Swamp_Props1_27
+  - first:
+      213: 1986049418291861926
+    second: Swamp_Props1_28
+  - first:
+      213: 7872537544849405669
+    second: Swamp_Props1_29
+  - first:
+      213: 6577780453854359665
+    second: Swamp_Props1_30
+  - first:
+      213: -3724372855415952879
+    second: Swamp_Props1_31
+  - first:
+      213: 8573489737431981678
+    second: Swamp_Props1_32
+  - first:
+      213: 457427675943878466
+    second: Swamp_Props1_33
+  - first:
+      213: 4349883676491231762
+    second: Swamp_Props1_34
+  - first:
+      213: 2454614912525093907
+    second: Swamp_Props1_35
+  - first:
+      213: -5078724095273047898
+    second: Swamp_Props1_36
+  - first:
+      213: 3533504266045886690
+    second: Swamp_Props1_37
+  - first:
+      213: -8402967379267936829
+    second: Swamp_Props1_38
+  - first:
+      213: 3978823213690401658
+    second: Swamp_Props1_39
+  - first:
+      213: 5414211740660972547
+    second: Swamp_Props1_40
+  - first:
+      213: 1706598315273919474
+    second: Swamp_Props1_41
+  - first:
+      213: -4257381671749132617
+    second: Swamp_Props1_42
+  - first:
+      213: -20063732634613884
+    second: Swamp_Props1_43
+  - first:
+      213: -8736533899923470863
+    second: Swamp_Props1_44
+  - first:
+      213: 4685725227645547479
+    second: Swamp_Props1_45
+  - first:
+      213: 5248181166480364720
+    second: Swamp_Props1_46
+  - first:
+      213: 8136463194081398480
+    second: Swamp_Props1_47
+  - first:
+      213: -4867137707451333760
+    second: Swamp_Props1_48
+  - first:
+      213: 1246684736139284616
+    second: Swamp_Props1_49
+  - first:
+      213: 4521283509747503237
+    second: Swamp_Props1_50
+  - first:
+      213: -6739024669810526553
+    second: Swamp_Props1_51
+  - first:
+      213: -2420506438872502900
+    second: Swamp_Props1_52
+  - first:
+      213: 2450770472415246625
+    second: Swamp_Props1_53
+  - first:
+      213: 1014692911820469494
+    second: Swamp_Props1_54
+  - first:
+      213: -3229467307772019768
+    second: Swamp_Props1_55
+  - first:
+      213: 4817627732553302187
+    second: Swamp_Props1_56
+  - first:
+      213: -903758667274067115
+    second: Swamp_Props1_57
+  - first:
+      213: 4890303719493997193
+    second: Swamp_Props1_58
+  - first:
+      213: 3984325707280740831
+    second: Swamp_Props1_59
+  - first:
+      213: -9139467213569768459
+    second: Swamp_Props1_60
+  - first:
+      213: 2118533201634910346
+    second: Swamp_Props1_61
+  - first:
+      213: 1808921695300128298
+    second: Swamp_Props1_62
+  - first:
+      213: 4265214254912641770
+    second: Swamp_Props1_63
+  - first:
+      213: 6501926214457729869
+    second: Swamp_Props1_64
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: 2
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Windows Store Apps
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Swamp_Little Rock_01
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 2010
+        width: 51
+        height: 26
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d5515fd333b63f90800000000000000
+      internalID: -6974189937565280807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swamp_Little Rock_02
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 2011
+        width: 66
+        height: 34
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cf323b5ff05aa740800000000000000
+      internalID: 5164028980410597318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swamp_Little Rock_03
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 2010
+        width: 141
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e231ac57b055d1c0800000000000000
+      internalID: -4479585505886784797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swamp_Little Rock_04
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 2011
+        width: 112
+        height: 30
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 340c1e14e66238e90800000000000000
+      internalID: -7024728738774269885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swamp_Little Rock_05
+      rect:
+        serializedVersion: 2
+        x: 554
+        y: 2011
+        width: 76
+        height: 28
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4075abef756df1d00800000000000000
+      internalID: 945710120195217156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swamp_Trap_01
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 1682
+        width: 340
+        height: 336
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa317426a180a58e0800000000000000
+      internalID: -1704040599595314262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swamp_Rope_01
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 1362
+        width: 41
+        height: 676
+      alignment: 9
+      pivot: {x: 0.500003, y: 0.99893856}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8e026b978820870800000000000000
+      internalID: 8647624290832804071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swamp_Spines_01
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 1859
+        width: 322
+        height: 134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d96e45a8ebe71c0e0800000000000000
+      internalID: -2251378981878831459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swamp_Spines_02
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 1859
+        width: 308
+        height: 115
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6a9a84b4827771510800000000000000
+      internalID: 1519814414206282150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swamp_Wood Structure_01
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 1111
+        width: 630
+        height: 890
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f6b5cc8458461350800000000000000
+      internalID: 5987052282611873528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swamp_Mushroom_01
+      rect:
+        serializedVersion: 2
+        x: 1804
+        y: 1840
+        width: 224
+        height: 118
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ff2e630379b57bd0800000000000000
+      internalID: -2632994503498256397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swamp_Wood Pillar_01
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 1758
+        width: 620
+        height: 76
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a8158aeeca131750800000000000000
+      internalID: 6274388181857409193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swamp_Mushroom_02
+      rect:
+        serializedVersion: 2
+        x: 1807
+        y: 1590
+        width: 222
+        height: 219
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4457481e86fcb3850800000000000000
+      internalID: 6357903348330689860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swamp_Trap_02
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1350
+        width: 647
+        height: 389
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84766f1a1429035c0800000000000000
+      internalID: -4237726438767827128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swamp_Trap_03
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 1292
+        width: 198
+        height: 363
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a536131338746610800000000000000
+      internalID: 1613546727264368035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swamp_Rock Round_01
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 1535
+        width: 148
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66a93bb1b9de11120800000000000000
+      internalID: 2382946928296172134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swamp_Noose
+      rect:
+        serializedVersion: 2
+        x: 934
+        y: 1252
+        width: 129
+        height: 255
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c96186b88c3a9730800000000000000
+      internalID: 4006581376374630855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swamp_Mushroom_03
+      rect:
+        serializedVersion: 2
+        x: 1783
+        y: 1408
+        width: 265
+        height: 137
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b861d7cf2a63e3b0800000000000000
+      internalID: -5484423167758735184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swamp_Trap_04
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 1076
+        width: 639
+        height: 271
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0f20dd7f896b4c90800000000000000
+      internalID: -7184532715527459061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swamp_Moss Rock_01
+      rect:
+        serializedVersion: 2
+        x: 702
+        y: 1072
+        width: 384
+        height: 179
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32c74977ec76196e0800000000000000
+      internalID: -1832569436895937501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swamp_Rope_02
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 933
+        width: 44
+        height: 366
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5c7f040420703fd0800000000000000
+      internalID: -2364266504380253093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swamp_Mushroom_04
+      rect:
+        serializedVersion: 2
+        x: 1800
+        y: 1075
+        width: 211
+        height: 275
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a9ae8250ca1a6390800000000000000
+      internalID: -7824411989281691223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swamp_Wood Branch_02
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 723
+        width: 139
+        height: 314
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65384280599cdab10800000000000000
+      internalID: 1994471851918918486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swamp_Wood Branch_03
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 759
+        width: 87
+        height: 320
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acd66cf582ea26fd0800000000000000
+      internalID: -2350124567105212982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swamp_Trunk_01
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 888
+        width: 473
+        height: 165
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f457c175d69db7f0800000000000000
+      internalID: -595153732261948174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swamp_Rope_03
+      rect:
+        serializedVersion: 2
+        x: 1638
+        y: 935
+        width: 63
+        height: 139
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e436e992ddd669ac0800000000000000
+      internalID: -3848768034888064178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swamp_Wood Branch_01
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 722
+        width: 129
+        height: 144
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f24594de9e73b4950800000000000000
+      internalID: 6434297970476799023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swamp_Trunk_02
+      rect:
+        serializedVersion: 2
+        x: 543
+        y: 707
+        width: 402
+        height: 155
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d9f230ecf58a9580800000000000000
+      internalID: -8819589599112005164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swamp_Mushroom_05
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 715
+        width: 213
+        height: 222
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d8ab89898d6d44d0800000000000000
+      internalID: -3148740126976530223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swamp_Mushroom_011
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 722
+        width: 202
+        height: 218
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b832b7d4937df7ba0800000000000000
+      internalID: -6088911530068597877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swamp_Mushroom_06
+      rect:
+        serializedVersion: 2
+        x: 1368
+        y: 726
+        width: 211
+        height: 213
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f86f38fdcfed53a90800000000000000
+      internalID: -7334711240439892337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swamp_Mushroom_07
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 824
+        width: 90
+        height: 98
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca4bea52cfa42b60800000000000000
+      internalID: 7720488910503758531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swamp_Mushroom_08
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 828
+        width: 98
+        height: 96
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0095d954cbba457d0800000000000000
+      internalID: -2930528632401209088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swamp_Mushroom_09
+      rect:
+        serializedVersion: 2
+        x: 1797
+        y: 699
+        width: 79
+        height: 204
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5789f56ffd74510800000000000000
+      internalID: 1533440447401719221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swamp_Mushroom_013
+      rect:
+        serializedVersion: 2
+        x: 1877
+        y: 701
+        width: 77
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b69817f15d0575f0800000000000000
+      internalID: -759686316452964685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swamp_Mushroom_010
+      rect:
+        serializedVersion: 2
+        x: 1956
+        y: 702
+        width: 80
+        height: 201
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99a029f4ced829710800000000000000
+      internalID: 1698576055558867609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swamp_Trunk_04
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 556
+        width: 265
+        height: 182
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 18e4854597d62c400800000000000000
+      internalID: 342956889507122817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swamp_Mushroom_012
+      rect:
+        serializedVersion: 2
+        x: 1594
+        y: 712
+        width: 91
+        height: 95
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f05092273f29621e0800000000000000
+      internalID: -2222927791770761969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swamp_Trunk_03
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 586
+        width: 265
+        height: 104
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4efbdeca43aad9640800000000000000
+      internalID: 5088410297214812132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swamp_Mushroom Trees_01
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 576
+        width: 197
+        height: 113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7d1ec2bc073b4e00800000000000000
+      internalID: 1029977467463277946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swamp_Trunk_06
+      rect:
+        serializedVersion: 2
+        x: 1117
+        y: 368
+        width: 851
+        height: 313
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 789c60ed901942630800000000000000
+      internalID: 3901402648775412103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swamp_Trunk_07
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 46
+        width: 151
+        height: 533
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7da06fec70f5d00800000000000000
+      internalID: 963497430753138652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swamp_Trunk_08
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 42
+        width: 149
+        height: 482
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60f30a38474483fe0800000000000000
+      internalID: -1209141232733765882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swamp_Trunk_05
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 380
+        width: 398
+        height: 189
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44b23a98280e18d0800000000000000
+      internalID: -2873850541737069492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swamp_Mushroom Trees_03
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 460
+        width: 196
+        height: 114
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad0f069f27106e080800000000000000
+      internalID: -9158631198889545510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swamp_Wood Pillar_02
+      rect:
+        serializedVersion: 2
+        x: 394
+        y: 51
+        width: 150
+        height: 329
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c5019bdc2660460800000000000000
+      internalID: 7207556889365732445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swamp_Mushroom Trees_02
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 319
+        width: 204
+        height: 133
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 141745882fb2c9810800000000000000
+      internalID: 1773340673946448193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swamp_Wood Branch_04
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 67
+        width: 44
+        height: 237
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb28703176311b4e0800000000000000
+      internalID: -1967770228762377540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swamp_Wood Branch_05
+      rect:
+        serializedVersion: 2
+        x: 688
+        y: 61
+        width: 22
+        height: 158
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0fe9ed8e53f5cb20800000000000000
+      internalID: 3154194701476294415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swamp_Wood Branch_06
+      rect:
+        serializedVersion: 2
+        x: 784
+        y: 58
+        width: 82
+        height: 254
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d6e0921a948b6f10800000000000000
+      internalID: 2264049034955122393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swamp_Wood Branch_07
+      rect:
+        serializedVersion: 2
+        x: 919
+        y: 59
+        width: 54
+        height: 223
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c727fe0285c18120800000000000000
+      internalID: 2414428037634795462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swamp_Moss Rock_02
+      rect:
+        serializedVersion: 2
+        x: 1031
+        y: 58
+        width: 586
+        height: 276
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bafdf56c80f11bd0800000000000000
+      internalID: -2661081419002021198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Swamp_Moss Rock_03
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 58
+        width: 364
+        height: 293
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537fd6c3259b30df0800000000000000
+      internalID: -215124594331355339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

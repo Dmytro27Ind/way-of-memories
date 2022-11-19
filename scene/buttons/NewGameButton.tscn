@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://assets/buttons/new_game_press.png" type="Texture" id=1]
+[ext_resource path="res://scripts/NewGameButton.gd" type="Script" id=2]
+[ext_resource path="res://assets/buttons/New game Button.png" type="Texture" id=3]
+
+[node name="NewGameButton" type="TextureButton"]
+margin_right = 600.0
+margin_bottom = 200.0
+size_flags_horizontal = 4
+size_flags_vertical = 2
+texture_normal = ExtResource( 3 )
+texture_pressed = ExtResource( 1 )
+script = ExtResource( 2 )

@@ -1,0 +1,511 @@
+[gd_scene load_steps=40 format=2]
+
+[ext_resource path="res://assets/Background/08_Forest.png" type="Texture" id=1]
+[ext_resource path="res://assets/Background/09_Forest.png" type="Texture" id=2]
+[ext_resource path="res://assets/Background/05_Particles.png" type="Texture" id=3]
+[ext_resource path="res://assets/Background/01_Mist.png" type="Texture" id=4]
+[ext_resource path="res://assets/Background/06_Forest.png" type="Texture" id=5]
+[ext_resource path="res://assets/Background/04_Forest.png" type="Texture" id=6]
+[ext_resource path="res://assets/Background/02_Bushes.png" type="Texture" id=7]
+[ext_resource path="res://assets/Background/07_Forest.png" type="Texture" id=8]
+[ext_resource path="res://assets/Background/03_Particles.png" type="Texture" id=9]
+[ext_resource path="res://assets/Background/10_Sky.png" type="Texture" id=10]
+[ext_resource path="res://scene/player.tscn" type="PackedScene" id=11]
+[ext_resource path="res://scene/Heart.tscn" type="PackedScene" id=12]
+[ext_resource path="res://assets/Ciconia Studio/2D Environment/Black&White - The Swamp/Sprites/Environment Props/Swamp_Trees1/sprite6.png" type="Texture" id=13]
+[ext_resource path="res://assets/Ciconia Studio/2D Environment/Black&White - The Swamp/Sprites/Environment Props/Swamp_Trees1/sprite5.png" type="Texture" id=14]
+[ext_resource path="res://scene/checkPoint.tscn" type="PackedScene" id=15]
+[ext_resource path="res://scene/levelUI.tscn" type="PackedScene" id=16]
+[ext_resource path="res://scene/Book.tscn" type="PackedScene" id=17]
+[ext_resource path="res://assets/Ciconia Studio/2D Environment/Black&White - The Swamp/Sprites/Environment Props/Swamp_Trees1/sprite3.png" type="Texture" id=18]
+[ext_resource path="res://scene/PortalToMenu.tscn" type="PackedScene" id=19]
+[ext_resource path="res://scene/Sprite39.gd" type="Script" id=20]
+[ext_resource path="res://assets/Ciconia Studio/2D Environment/Black&White - The Swamp/Sprites/Environment Props/Swamp_Rocks1/sprite4.png" type="Texture" id=22]
+[ext_resource path="res://assets/Ciconia Studio/2D Environment/Black&White - The Swamp/Sprites/Environment Props/Swamp_Rocks1/sprite6.png" type="Texture" id=23]
+[ext_resource path="res://assets/Ciconia Studio/2D Environment/Black&White - The Swamp/Sprites/Environment Props/Swamp_Trees2 + Props/sprite15.png" type="Texture" id=26]
+[ext_resource path="res://assets/Ciconia Studio/2D Environment/Black&White - The Swamp/Sprites/Environment Props/Swamp_Trees2 + Props/sprite14.png" type="Texture" id=28]
+[ext_resource path="res://assets/Ciconia Studio/2D Environment/Black&White - The Swamp/Sprites/Environment Props/Swamp_Props1/sprite13.png" type="Texture" id=30]
+[ext_resource path="res://assets/Ciconia Studio/2D Environment/Black&White - The Swamp/Sprites/Environment Props/Swamp_Props1/sprite9.png" type="Texture" id=31]
+[ext_resource path="res://assets/Ciconia Studio/2D Environment/Black&White - The Swamp/Sprites/Environment Props/Swamp_Props2/sprite25.png" type="Texture" id=32]
+[ext_resource path="res://assets/Ciconia Studio/2D Environment/Black&White - The Swamp/Sprites/Environment Props/Swamp_Props2/sprite12.png" type="Texture" id=33]
+[ext_resource path="res://assets/Ciconia Studio/2D Environment/Black&White - The Swamp/Sprites/Environment Props/Swamp_Props2/sprite29.png" type="Texture" id=34]
+[ext_resource path="res://assets/Ciconia Studio/2D Environment/Black&White - The Swamp/Sprites/Environment Props/Swamp_Props2/sprite23.png" type="Texture" id=35]
+[ext_resource path="res://assets/Ciconia Studio/2D Environment/Black&White - The Swamp/Sprites/Environment Props/Swamp_Props1/sprite47.png" type="Texture" id=36]
+[ext_resource path="res://assets/Ciconia Studio/2D Environment/Black&White - The Swamp/Sprites/Environment Props/Swamp_Trees2 + Props/sprite13.png" type="Texture" id=37]
+[ext_resource path="res://assets/Ciconia Studio/2D Environment/Black&White - The Swamp/Sprites/Environment Props/Swamp_Props1/sprite36.png" type="Texture" id=39]
+[ext_resource path="res://assets/Ciconia Studio/2D Environment/Black&White - The Swamp/Sprites/Environment Props/Swamp_Props1/sprite15.png" type="Texture" id=40]
+[ext_resource path="res://assets/Ciconia Studio/2D Environment/Black&White - The Swamp/Sprites/Environment Props/Swamp_Props1/sprite34.png" type="Texture" id=41]
+[ext_resource path="res://assets/Ciconia Studio/2D Environment/Black&White - The Swamp/Sprites/Environment Props/Swamp_Props1/sprite50.png" type="Texture" id=42]
+[ext_resource path="res://assets/Ciconia Studio/2D Environment/Black&White - The Swamp/Sprites/Environment Props/Swamp_Props1/sprite32.png" type="Texture" id=43]
+[ext_resource path="res://assets/Ciconia Studio/2D Environment/Black&White - The Swamp/Sprites/Environment Props/Swamp_Props1/sprite33.png" type="Texture" id=44]
+[ext_resource path="res://assets/Ciconia Studio/2D Environment/Black&White - The Swamp/Sprites/Environment Props/Swamp_Props1/sprite23.png" type="Texture" id=45]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Player" parent="." instance=ExtResource( 11 )]
+position = Vector2( 114, 540 )
+z_index = 3
+
+[node name="Camera2D" type="Camera2D" parent="Player"]
+position = Vector2( -4.00001, -85 )
+current = true
+
+[node name="ParallaxBackground" type="ParallaxBackground" parent="Player/Camera2D"]
+
+[node name="ParallaxLayer" type="ParallaxLayer" parent="Player/Camera2D/ParallaxBackground"]
+position = Vector2( 511, 301 )
+motion_scale = Vector2( 0.1, 1 )
+motion_mirroring = Vector2( 1920, 0 )
+
+[node name="Sprite" type="Sprite" parent="Player/Camera2D/ParallaxBackground/ParallaxLayer"]
+texture = ExtResource( 10 )
+
+[node name="ParallaxLayer2" type="ParallaxLayer" parent="Player/Camera2D/ParallaxBackground"]
+position = Vector2( 511, 301 )
+motion_scale = Vector2( 0.2, 1 )
+motion_mirroring = Vector2( 1920, 0 )
+
+[node name="Sprite" type="Sprite" parent="Player/Camera2D/ParallaxBackground/ParallaxLayer2"]
+texture = ExtResource( 2 )
+
+[node name="ParallaxLayer3" type="ParallaxLayer" parent="Player/Camera2D/ParallaxBackground"]
+position = Vector2( 511, 301 )
+motion_scale = Vector2( 0.3, 1 )
+motion_mirroring = Vector2( 1920, 0 )
+
+[node name="Sprite" type="Sprite" parent="Player/Camera2D/ParallaxBackground/ParallaxLayer3"]
+texture = ExtResource( 1 )
+
+[node name="ParallaxLayer4" type="ParallaxLayer" parent="Player/Camera2D/ParallaxBackground"]
+position = Vector2( 511, 301 )
+motion_scale = Vector2( 0.4, 1 )
+motion_mirroring = Vector2( 1920, 0 )
+
+[node name="Sprite" type="Sprite" parent="Player/Camera2D/ParallaxBackground/ParallaxLayer4"]
+texture = ExtResource( 8 )
+
+[node name="ParallaxLayer5" type="ParallaxLayer" parent="Player/Camera2D/ParallaxBackground"]
+position = Vector2( 511, 301 )
+motion_scale = Vector2( 0.5, 1 )
+motion_mirroring = Vector2( 1920, 0 )
+
+[node name="Sprite" type="Sprite" parent="Player/Camera2D/ParallaxBackground/ParallaxLayer5"]
+texture = ExtResource( 5 )
+
+[node name="ParallaxLayer6" type="ParallaxLayer" parent="Player/Camera2D/ParallaxBackground"]
+position = Vector2( 511, 301 )
+motion_scale = Vector2( 0.6, 1 )
+motion_mirroring = Vector2( 1920, 0 )
+
+[node name="Sprite" type="Sprite" parent="Player/Camera2D/ParallaxBackground/ParallaxLayer6"]
+texture = ExtResource( 3 )
+
+[node name="ParallaxLayer7" type="ParallaxLayer" parent="Player/Camera2D/ParallaxBackground"]
+position = Vector2( 511, 301 )
+motion_scale = Vector2( 0.7, 1 )
+motion_mirroring = Vector2( 1920, 0 )
+
+[node name="Sprite" type="Sprite" parent="Player/Camera2D/ParallaxBackground/ParallaxLayer7"]
+texture = ExtResource( 6 )
+
+[node name="ParallaxLayer8" type="ParallaxLayer" parent="Player/Camera2D/ParallaxBackground"]
+position = Vector2( 511, 301 )
+motion_scale = Vector2( 0.8, 1 )
+motion_mirroring = Vector2( 1920, 0 )
+
+[node name="Sprite" type="Sprite" parent="Player/Camera2D/ParallaxBackground/ParallaxLayer8"]
+texture = ExtResource( 9 )
+
+[node name="ParallaxLayer9" type="ParallaxLayer" parent="Player/Camera2D/ParallaxBackground"]
+position = Vector2( 511, 301 )
+motion_scale = Vector2( 0.9, 1 )
+motion_mirroring = Vector2( 1920, 0 )
+
+[node name="Sprite" type="Sprite" parent="Player/Camera2D/ParallaxBackground/ParallaxLayer9"]
+texture = ExtResource( 7 )
+
+[node name="ParallaxLayer10" type="ParallaxLayer" parent="Player/Camera2D/ParallaxBackground"]
+position = Vector2( 511, 301 )
+motion_mirroring = Vector2( 1920, 0 )
+
+[node name="Sprite" type="Sprite" parent="Player/Camera2D/ParallaxBackground/ParallaxLayer10"]
+texture = ExtResource( 4 )
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+z_index = 1
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="StaticBody2D"]
+polygon = PoolVector2Array( -259, 201, -167, 344, -53, 368, 5, 553, -21, 612, 2080, 561, 2082, 612, 2036, 684, 2046, 790, 2179, 1057, 2172, 1269, 2095, 1333, 1944, 686, -135, 718 )
+
+[node name="CollisionPolygon2D2" type="CollisionPolygon2D" parent="StaticBody2D"]
+polygon = PoolVector2Array( 2261, 1187, 2203, 891, 2221, 743, 2295, 591, 3070, 594, 3964, 606, 5237, 570, 5308, 576, 5318, 606, 5269, 674, 2355, 697 )
+
+[node name="CollisionPolygon2D3" type="CollisionPolygon2D" parent="StaticBody2D"]
+polygon = PoolVector2Array( 1134, 586, 1132, 485, 1186, 458, 1411, 454, 1528, 475, 1618, 528, 1650, 574 )
+
+[node name="CollisionPolygon2D7" type="CollisionPolygon2D" parent="StaticBody2D"]
+position = Vector2( -32, 80 )
+polygon = PoolVector2Array( 5267, 689, 5359, 934, 5413, 1039, 5446, 1046, 5396, 785, 5413, 607, 5481, 447, 5689, 453, 6596, 455, 7561, 459, 7671, 445, 8469, 424, 8501, 441, 8497, 472, 8459, 579, 8595, 875, 8611, 1099, 8513, 1177, 8337, 504, 5585, 552, 5484, 1124, 5278, 1041 )
+
+[node name="shipi" type="Node2D" parent="."]
+
+[node name="Sprite43" type="Sprite" parent="shipi"]
+position = Vector2( 7068, 57 )
+texture = ExtResource( 37 )
+script = ExtResource( 20 )
+
+[node name="Area2D" type="Area2D" parent="shipi/Sprite43"]
+position = Vector2( -20, 2 )
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="shipi/Sprite43/Area2D"]
+position = Vector2( -13, 0 )
+polygon = PoolVector2Array( -416, -23, -445, -18, -446, 84, -402, 113, -326, 96, -316, 69, -302, 33, -187, 57, -157, 112, -59, 145, -49, 162, -11, 167, 79, 152, 121, 60, 310, 41, 325, 113, 451, 102, 492, 22, 478, -34, 353, -126, 263, -30, 112, -63, 56, -145, -67, -176, -148, -119, -174, -57, -301, -46, -359, -110, -414, -106 )
+
+[node name="Sprite42" type="Sprite" parent="shipi"]
+position = Vector2( 2180, 96 )
+texture = ExtResource( 37 )
+script = ExtResource( 20 )
+
+[node name="Area2D" type="Area2D" parent="shipi/Sprite42"]
+position = Vector2( -20, 2 )
+collision_layer = 4
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="shipi/Sprite42/Area2D"]
+position = Vector2( -8.62621, 6.06705 )
+scale = Vector2( 0.995516, 0.90379 )
+polygon = PoolVector2Array( -430.303, -38.8, -434.384, 17.9667, -428.623, 99.6333, -402, 113, -326, 96, -316, 69, -302, 33, -187, 57, -157, 112, -59, 145, -49, 162, -11, 167, 79, 152, 121, 60, 310, 41, 325, 113, 451, 102, 506.899, 14.3097, 491.832, -37.6935, 372.296, -147.232, 263, -30, 112, -63, 88.021, -158.297, -45.5781, -197.023, -148, -119, -174, -57, -301, -46, -359, -110, -414, -106 )
+
+[node name="Sprite30" type="Sprite" parent="shipi"]
+position = Vector2( 1189, 763 )
+rotation = 2.87916
+texture = ExtResource( 30 )
+offset = Vector2( -1043.95, -338.419 )
+
+[node name="Area2D" type="Area2D" parent="shipi/Sprite30"]
+position = Vector2( -910.757, -256.045 )
+collision_layer = 5
+
+[node name="CollisionPolygon2D4" type="CollisionPolygon2D" parent="shipi/Sprite30/Area2D"]
+position = Vector2( -2963.56, -1434.19 )
+scale = Vector2( 1.37913, 1.72439 )
+polygon = PoolVector2Array( 2074, 830, 2195, 810, 2190, 871 )
+
+[node name="Sprite39" type="Sprite" parent="shipi"]
+position = Vector2( 5437, 822 )
+rotation = 3.13911
+scale = Vector2( 0.576637, 0.576637 )
+texture = ExtResource( 30 )
+offset = Vector2( 87.4146, 57.2162 )
+
+[node name="Area2D" type="Area2D" parent="shipi/Sprite39"]
+
+[node name="CollisionPolygon2D8" type="CollisionPolygon2D" parent="shipi/Sprite39/Area2D"]
+position = Vector2( -11051.6, -898.007 )
+scale = Vector2( 2.09774, 1.25954 )
+polygon = PoolVector2Array( 5298.68, 843.903, 5366.98, 716.686, 5424.44, 796.25, 5401.11, 914.563, 5394.6, 844.317 )
+
+[node name="Sprite40" type="Sprite" parent="shipi"]
+position = Vector2( 3939, 600 )
+rotation = 3.13911
+scale = Vector2( 0.289963, 0.393929 )
+texture = ExtResource( 30 )
+
+[node name="Area2D" type="Area2D" parent="shipi/Sprite40"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="shipi/Sprite40/Area2D"]
+polygon = PoolVector2Array( 224.209, -12.2828, 185.939, 86.6501, -207.222, 88.4702, -255.161, -13.1588 )
+
+[node name="Sprite41" type="Sprite" parent="shipi"]
+position = Vector2( 2879, 600 )
+rotation = 3.13911
+scale = Vector2( 0.289963, 0.393929 )
+texture = ExtResource( 30 )
+
+[node name="Area2D" type="Area2D" parent="shipi/Sprite41"]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="shipi/Sprite41/Area2D"]
+polygon = PoolVector2Array( 224.209, -12.2828, 185.939, 86.6501, -207.222, 88.4702, -255.161, -13.1588 )
+
+[node name="ground" type="Node2D" parent="."]
+
+[node name="Sprite15" type="Sprite" parent="ground"]
+position = Vector2( 880, -1108 )
+texture = ExtResource( 26 )
+offset = Vector2( -405, 1767 )
+
+[node name="Sprite16" type="Sprite" parent="ground"]
+position = Vector2( 1944, -1135 )
+texture = ExtResource( 26 )
+offset = Vector2( -405, 1767 )
+
+[node name="Sprite9" type="Sprite" parent="ground"]
+position = Vector2( 3146, 420 )
+scale = Vector2( 0.560569, 0.41265 )
+texture = ExtResource( 18 )
+
+[node name="Sprite8" type="Sprite" parent="ground"]
+position = Vector2( 404, 369 )
+scale = Vector2( 0.628205, 0.49115 )
+texture = ExtResource( 18 )
+
+[node name="Sprite14" type="Sprite" parent="ground"]
+position = Vector2( -2434, -1496 )
+texture = ExtResource( 28 )
+offset = Vector2( 5190, 2136 )
+
+[node name="Sprite7" type="Sprite" parent="ground"]
+position = Vector2( -449, 960 )
+rotation = 3.13879
+scale = Vector2( 1, 1.84519 )
+texture = ExtResource( 23 )
+offset = Vector2( -214.769, -66.7774 )
+
+[node name="Sprite6" type="Sprite" parent="ground"]
+position = Vector2( -710, 429 )
+texture = ExtResource( 23 )
+
+[node name="Sprite11" type="Sprite" parent="ground"]
+position = Vector2( 754, 963 )
+rotation = 3.13879
+scale = Vector2( 1, 1.84519 )
+texture = ExtResource( 23 )
+offset = Vector2( -214.769, -66.7774 )
+
+[node name="Sprite12" type="Sprite" parent="ground"]
+position = Vector2( 2698, 948 )
+rotation = 3.13879
+scale = Vector2( 1, 1.84519 )
+texture = ExtResource( 23 )
+offset = Vector2( -214.769, -66.7774 )
+
+[node name="Sprite13" type="Sprite" parent="ground"]
+position = Vector2( 3901.12, 956.401 )
+rotation = 3.13879
+scale = Vector2( 1, 1.84519 )
+texture = ExtResource( 23 )
+offset = Vector2( -214.769, -66.7774 )
+
+[node name="Sprite17" type="Sprite" parent="ground"]
+position = Vector2( 1256, 934 )
+rotation = 3.13879
+scale = Vector2( 1, 1.84519 )
+texture = ExtResource( 23 )
+offset = Vector2( -214.769, -66.7774 )
+
+[node name="Sprite18" type="Sprite" parent="ground"]
+position = Vector2( -1457, -1494 )
+texture = ExtResource( 28 )
+offset = Vector2( 5190, 2136 )
+
+[node name="Sprite19" type="Sprite" parent="ground"]
+position = Vector2( 5173, 478 )
+texture = ExtResource( 26 )
+offset = Vector2( -404, 162 )
+
+[node name="Sprite20" type="Sprite" parent="ground"]
+position = Vector2( 4494, 923 )
+rotation = 3.13879
+scale = Vector2( 1, 1.84519 )
+texture = ExtResource( 23 )
+offset = Vector2( -214.769, -66.7774 )
+
+[node name="Sprite4" type="Sprite" parent="ground"]
+position = Vector2( 1384.9, 520.25 )
+scale = Vector2( 0.474551, 0.474551 )
+texture = ExtResource( 22 )
+
+[node name="Sprite10" type="Sprite" parent="ground"]
+position = Vector2( 4754.88, 317.68 )
+scale = Vector2( 0.639868, 0.639868 )
+texture = ExtResource( 14 )
+
+[node name="Sprite21" type="Sprite" parent="ground"]
+position = Vector2( 1602, 302 )
+scale = Vector2( 0.661863, 0.661862 )
+texture = ExtResource( 13 )
+
+[node name="Sprite22" type="Sprite" parent="ground"]
+position = Vector2( 6314.12, 356.257 )
+scale = Vector2( 0.560569, 0.41265 )
+texture = ExtResource( 18 )
+
+[node name="Sprite23" type="Sprite" parent="ground"]
+position = Vector2( 734.122, -1559.74 )
+texture = ExtResource( 28 )
+offset = Vector2( 5190, 2136 )
+
+[node name="Sprite24" type="Sprite" parent="ground"]
+position = Vector2( 5866.12, 884.257 )
+rotation = 3.13879
+scale = Vector2( 1, 1.84519 )
+texture = ExtResource( 23 )
+offset = Vector2( -214.769, -66.7774 )
+
+[node name="Sprite25" type="Sprite" parent="ground"]
+position = Vector2( 7069.24, 892.658 )
+rotation = 3.13879
+scale = Vector2( 1, 1.84519 )
+texture = ExtResource( 23 )
+offset = Vector2( -214.769, -66.7774 )
+
+[node name="Sprite26" type="Sprite" parent="ground"]
+position = Vector2( 1711.12, -1550.74 )
+texture = ExtResource( 28 )
+offset = Vector2( 5190, 2136 )
+
+[node name="Sprite27" type="Sprite" parent="ground"]
+position = Vector2( 8341.12, 420.257 )
+texture = ExtResource( 26 )
+offset = Vector2( -404, 162 )
+
+[node name="Sprite28" type="Sprite" parent="ground"]
+position = Vector2( 7662.12, 859.257 )
+rotation = 3.13879
+scale = Vector2( 1, 1.84519 )
+texture = ExtResource( 23 )
+offset = Vector2( -214.769, -66.7774 )
+
+[node name="Sprite29" type="Sprite" parent="ground"]
+position = Vector2( 7923, 253.937 )
+scale = Vector2( 0.639868, 0.639868 )
+texture = ExtResource( 14 )
+
+[node name="Sprite31" type="Sprite" parent="ground"]
+position = Vector2( 2150, 1209 )
+rotation = 3.13879
+scale = Vector2( 1, 1.84519 )
+texture = ExtResource( 23 )
+offset = Vector2( -214.769, -66.7774 )
+
+[node name="Sprite34" type="Sprite" parent="ground"]
+position = Vector2( 8382, 370.97 )
+scale = Vector2( 0.302925, 0.555247 )
+texture = ExtResource( 31 )
+
+[node name="Sprite35" type="Sprite" parent="ground"]
+position = Vector2( 8200.6, 394.942 )
+rotation = 0.0506343
+scale = Vector2( 0.225, -0.308326 )
+texture = ExtResource( 35 )
+
+[node name="Sprite36" type="Sprite" parent="ground"]
+position = Vector2( 8297, 275 )
+rotation = -0.0502347
+scale = Vector2( 0.270391, 0.226003 )
+texture = ExtResource( 32 )
+
+[node name="Sprite47" type="Sprite" parent="ground"]
+position = Vector2( 8236, 374 )
+rotation = 0.799485
+scale = Vector2( 0.577706, 0.292429 )
+texture = ExtResource( 36 )
+
+[node name="Sprite37" type="Sprite" parent="ground"]
+position = Vector2( 8343, 363 )
+rotation = -0.845367
+scale = Vector2( 0.178914, 0.14839 )
+texture = ExtResource( 34 )
+
+[node name="Sprite38" type="Sprite" parent="ground"]
+position = Vector2( 8289, 330 )
+rotation = 1.50974
+scale = Vector2( 0.228514, -0.340891 )
+texture = ExtResource( 33 )
+
+[node name="Sprite51" type="Sprite" parent="ground"]
+position = Vector2( -68.375, 336.625 )
+scale = Vector2( 0.466867, 0.626471 )
+texture = ExtResource( 42 )
+
+[node name="Sprite50" type="Sprite" parent="ground"]
+position = Vector2( 825.25, 566.25 )
+scale = Vector2( 0.620482, 0.805882 )
+texture = ExtResource( 42 )
+
+[node name="Sprite52" type="Sprite" parent="ground"]
+position = Vector2( 3340, 574 )
+scale = Vector2( 0.4488, 0.497058 )
+texture = ExtResource( 42 )
+
+[node name="Sprite6" type="Sprite" parent="."]
+position = Vector2( 5367, 1009 )
+texture = ExtResource( 23 )
+
+[node name="Sprite34" type="Sprite" parent="."]
+position = Vector2( 4135.75, 556.75 )
+scale = Vector2( 0.535897, 0.455224 )
+texture = ExtResource( 41 )
+
+[node name="Sprite34" type="Sprite" parent="Sprite34"]
+position = Vector2( 3665.35, -120.27 )
+scale = Vector2( 0.65311, 0.620219 )
+texture = ExtResource( 41 )
+
+[node name="Sprite33" type="Sprite" parent="."]
+position = Vector2( 6812.75, 465 )
+scale = Vector2( 0.772727, 0.544643 )
+texture = ExtResource( 44 )
+
+[node name="Sprite36" type="Sprite" parent="."]
+position = Vector2( 7390.25, 450 )
+scale = Vector2( 0.740964, 0.716535 )
+texture = ExtResource( 39 )
+
+[node name="Sprite32" type="Sprite" parent="."]
+position = Vector2( 7436, 507 )
+scale = Vector2( 0.446962, 0.309586 )
+texture = ExtResource( 43 )
+
+[node name="Sprite23" type="Sprite" parent="."]
+position = Vector2( 1277.75, 426.75 )
+scale = Vector2( 0.61336, 0.613821 )
+texture = ExtResource( 45 )
+
+[node name="Sprite22" type="Sprite" parent="."]
+position = Vector2( 263, 502 )
+texture = ExtResource( 40 )
+
+[node name="Heart" parent="." instance=ExtResource( 12 )]
+position = Vector2( 1396, 412 )
+
+[node name="Heart" parent="Heart" instance=ExtResource( 12 )]
+position = Vector2( 3741, 107 )
+
+[node name="checkPoint" parent="." instance=ExtResource( 15 )]
+position = Vector2( 1467, 414 )
+
+[node name="checkPoint2" parent="." instance=ExtResource( 15 )]
+position = Vector2( 6254, 488 )
+
+[node name="levelUI" parent="." instance=ExtResource( 16 )]
+position = Vector2( -2, 1 )
+
+[node name="Heart2" parent="." instance=ExtResource( 12 )]
+position = Vector2( 902, 524 )
+
+[node name="PortalToMenu" parent="." instance=ExtResource( 19 )]
+position = Vector2( 8292, 444 )
+
+[node name="Book" parent="." instance=ExtResource( 17 )]
+position = Vector2( 7998, 497 )
+
+[node name="Book" parent="Book" instance=ExtResource( 17 )]
+position = Vector2( -1661, 7 )
+
+[node name="Book" parent="Book/Book" instance=ExtResource( 17 )]
+position = Vector2( -1534, 49 )
+
+[node name="Book2" parent="Book/Book" instance=ExtResource( 17 )]
+position = Vector2( -5247, 44 )
+
+[connection signal="game_over" from="Player" to="levelUI" method="_on_Player_game_over"]
+[connection signal="hearth_signal" from="Player" to="levelUI" method="_on_Player_hearth_signal"]
+[connection signal="body_entered" from="shipi/Sprite43/Area2D" to="Player" method="_on_Area2D_body_entered"]
+[connection signal="body_entered" from="shipi/Sprite42/Area2D" to="Player" method="_on_Area2D_body_entered"]
+[connection signal="body_entered" from="shipi/Sprite30/Area2D" to="Player" method="_on_Area2D_body_entered"]
+[connection signal="body_entered" from="shipi/Sprite39/Area2D" to="Player" method="_on_Area2D_body_entered"]
+[connection signal="body_entered" from="shipi/Sprite40/Area2D" to="Player" method="_on_Area2D_body_entered"]
+[connection signal="body_entered" from="shipi/Sprite41/Area2D" to="Player" method="_on_Area2D_body_entered"]
+[connection signal="heart_collect" from="Heart" to="Player" method="_on_Heart_heart_collect"]
+[connection signal="checkpoint_pos" from="checkPoint" to="Player" method="_on_checkPoint_checkpoint_pos"]
+[connection signal="heart_collect" from="Heart2" to="Player" method="_on_Heart_heart_collect"]
