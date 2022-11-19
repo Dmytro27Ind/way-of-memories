@@ -1,5 +1,5 @@
 # Way of Memories
-This is a 2D single player platform game with a post-apocalyptic theme. Her goal is to go through the map and get to its end. In this case, it is necessary to collect useful items and solve problems with bypassing various traps.
+This is a 2D single player platform game with a post-apocalyptic theme. Her goal is to go through the map and get to its end. In this case, it is necessary to collect useful items and solve problems with bypassing various traps. <a href="https://devpost.com/software/way-of-memories" target="_blank">Devpost link</a>
 
 <p float="left">
   <img src="https://github.com/Dmytro27Ind/images/blob/main/way-of-memories-1.png" width="265" />
@@ -25,6 +25,12 @@ Below is a table comparing the success of similar platformer games.
 | Celeste                | 25 Jan, 2018      | 47 505         | 1,000,000 .. 2,000,000  | $19.99         | $29 985 000  |
 | Super Meat Boy         | 30 Nov, 2010      | 21 825         | 2,000,000 .. 5,000,000  | $14.99         | $52 465 000  |
 | Ultimate Chicken Horse | 4 Mar, 2016       | 20 965         | 2,000,000 .. 5,000,000  | $14.99         | $52 465 000  |
+
+## Authors
+- Mozenbakh Anton
+- Kagirov Dmytro
+- Kashytskyi Oleksandr
+- Naumenko Artem
 
 ## Credits:
 -  **Assets :** 
