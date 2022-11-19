@@ -13,7 +13,7 @@ This is a 2D single player platform game with a post-apocalyptic theme. Her goal
 ## Market Research
 Below is a table comparing the success of similar platformer games.
 
-| Meno                   | Dátum zverejnenia | Počet recenzii | Vlastníci               | Priemerná cena | Hrubý odhad  |
+| Name                   | Publication date | Number of reviews | Players               | Average price | Gross earnings  |
 | ---------------------- | ----------------- | -------------- | ----------------------- | -------------- | ------------ |
 | Little Nightmares      | Apr 27, 2017      | 2,969,956      | 2,000,000 .. 5,000,000  | $4.99          | $17 465 000  |
 | FAR: Lone Sails        | May 17, 2018      | 5,849          | 500,000 .. 1,000,000    | $7.49          | $5 617 500   |
@@ -26,10 +26,10 @@ Below is a table comparing the success of similar platformer games.
 | Super Meat Boy         | 30 Nov, 2010      | 21 825         | 2,000,000 .. 5,000,000  | $14.99         | $52 465 000  |
 | Ultimate Chicken Horse | 4 Mar, 2016       | 20 965         | 2,000,000 .. 5,000,000  | $14.99         | $52 465 000  |
 
-##Credits:
+## Credits:
 -  **Assets :** 
    -  menu buttons: https://nectanebo.itch.io/menu-buttons
-   -  parallsx background: https://digitalmoons.itch.io/parallax-forest-background
+   -  parallax background: https://digitalmoons.itch.io/parallax-forest-background
    -  custom font: https://arendev.itch.io/handwriting-font
-   -  game enviroment assets: https://assetstore.unity.com/packages/2d/environments/black-and-white-the-swamp-190596#publisher
+   -  game environment assets: https://assetstore.unity.com/packages/2d/environments/black-and-white-the-swamp-190596#publisher
    -  main hero: https://assetstore.unity.com/packages/2d/characters/2d-character-bolchie-114179
